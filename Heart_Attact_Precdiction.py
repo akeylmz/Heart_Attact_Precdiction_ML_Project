@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 app = Flask(__name__)
 
 # CSV dosyasını oku
-file_path = "heart.csv"
+file_path = "Heart_Attact_Precdiction_ML_Project\heart.csv"
 data = pd.read_csv(file_path)
 
 # Özellikler ve hedefi belirle
